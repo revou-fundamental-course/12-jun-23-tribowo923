@@ -1,0 +1,75 @@
+/* Mark: Default */
+body{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+header{
+    background-color: #9575DE;
+    color: #F5EFE7;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label {
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(48, 27, 27);
+}
+
+button {
+    background-color: #9AC5F4;
+    color: #F5EFE7;
+    border: none;   
+    margin: 5px;
+    width: 100px;
+    height: 30px;
+    box-shadow: 2px 2px 2px rgb(96, 108, 93);
+    cursor: pointer; /* Merubah Kursor Menjadi tangan*/
+}
+button:hover { /* Ini adalah sudo atribute*/
+    background-color: #99DBF5;
+    color: #F5EFE7;
+    border: none;
+    width: 100px;   
+}
+button:active{ /* Digunakan agar button sedikit kebawah saat diklick */
+    transform: translateY(1px);
+    background-color: #A7ECEE;
+}
+
+/* Mark: id */
+#InputField{
+    outline: none;
+    font-size: 14px;
+    border: #2B2730 solid;
+    padding: 10px;
+
+}
+#InputField:focus{
+    border: #606C5D solid;
+}
+
+/* Mark: Class */
+.InputSection {
+    display: flex;
+    flex-direction: column;
+    border: #2B2730 solid;
+    border-top: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 500px;
+    padding: 5px 70px;
+    margin-top: -22px;
+
+}
+.InputButtonSection {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-self: center;
+}
